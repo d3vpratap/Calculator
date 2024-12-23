@@ -1,0 +1,46 @@
+.div{
+    max-height: 600px;
+    max-width: 650px;
+    border: 3px solid aquamarine;
+    /* text-align: center; */
+    padding: 10px;
+    margin: 20px auto;
+}
+#screen{
+    color:#ccc;
+    display: block;
+    margin: 10px auto;
+    font-size: 2rem;
+}
+.div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.div table{
+    border: 3px solid #ccc;
+    margin: 9px auto;
+}
+td{
+    height: 40px;
+    width: 65px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 4px 3px rgb(0.3, 0.4, 0.3);
+    transition: 100ms;
+}
+td:active{
+    transform: scale(0.8);
+}
+td button{
+    color:aqua;
+    font-size: 1.9rem;
+    height: 100%;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+*{
+    background-color: black;
+    color: beige;
+    /* background-image: url(https://plus.unsplash.com/premium_vector-1714618850159-9bbcde6e3b07?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGdyZXl8ZW58MHx8MHx8fDA%3D); */
+}
